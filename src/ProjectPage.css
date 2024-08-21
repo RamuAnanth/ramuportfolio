@@ -1,0 +1,65 @@
+.project-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Adjust the max width as needed */
+    max-height: 150px; /* Adjust the max height as needed */
+    object-fit: cover; /* Ensure the image covers the specified dimensions without distortion */
+    margin: 0 auto; /* Center the image within the card */
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    background-color: #0056b3;
+  }

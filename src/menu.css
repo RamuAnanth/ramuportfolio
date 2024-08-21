@@ -1,0 +1,85 @@
+.navbar-center {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  width: 100%;
+}
+
+.navbar-center .navbar {
+  right: 14% !important; /* Position the navbar to the right */
+  width: auto; /* Ensure the navbar wraps its content */
+}
+
+.navbar {
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+  padding: 0px;
+  background-color: white;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+@media (max-width: 320px) {
+  .navbar-center {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-center {
+    justify-content: flex-end; /* Align to the right */
+    text-align: right; /* Align text to the right */
+  }
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+/* Style for the nav links */
+.nav-item {
+  padding: 0.25rem;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+}
+
+.nav-link {
+  color: #6c757d; /* Default dull color for non-active links */
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #e74c3c; /* Highlight color for active and hover states */
+  font-weight: bold; /* Make text bold for the active state */
+}
+
+.nav-link.active {
+  background-color: #f0f0f0; /* Light background for the active link */
+  border-radius: 4px; /* Rounded corners for the active link */
+}
+
+.nav-link[href$=".pdf"] {
+  color: #007bff; /* Resume link color */
+}
+
+.nav-link[href$=".pdf"]:hover {
+  color: #0056b3; /* Hover color for the Resume link */
+}
+
+.bodypart {
+  background-color: rgb(29, 25, 25);
+  opacity: 0.8;
+  transition: blur(15);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding-left: 0px;
+}

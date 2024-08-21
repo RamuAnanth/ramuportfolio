@@ -1,0 +1,57 @@
+.aboutdiv{
+    background-color: #00DBDE;
+    backdrop-filter: blur(54px); 
+    background-image: linear-gradient(140deg, #00DBDE 0%, #FC00FF 100%);
+    position: absolute;
+  border-radius: 20px;
+  margin: 20px 30px 50px;
+  padding-left: 60px;
+  padding-right: 150px;
+}
+@keyframes para {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.para {
+  font-size: 60px;
+  background: -webkit-linear-gradient(#000730, #cbaeae);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  overflow: hidden; /* Ensures the text is only visible within its container */
+  white-space: nowrap; /* Keeps the text in a single line */
+  animation: para 3s steps(40) 1 normal both; /* Typewriting effect */
+  border-right: none; /* Remove cursor */
+  /* padding-left: 120px; */
+  margin-top: 0px;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
+}
+.urls{
+padding-left: 200px;
+left: 15%;
+position: relative;
+right: 0%;
+}
+.contactdiv{
+  border-radius: 20px;
+  margin: 20px 30px 50px;
+  padding-left: 60px;
+}
+.name{
+  /* display: flex; */
+  /* gap: 100px; */
+  /* border:2px solid rgb(230, 51, 51); */
+}
+.developimage{
+justify-content: flex-end;
+display: flex;
+/* border: 2px solid black; */
+float: right;
+}
